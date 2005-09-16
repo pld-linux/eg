@@ -2,14 +2,14 @@ Summary:	Norton Guide reader for GNU/Linux
 Summary(pl):	Czytnik plików Norton Guide dla GNU/Linuksa
 Name:		eg
 Version:	1.00
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications
 Source0:	http://www.davep.org/norton-guides/%{name}-%{version}.tar.gz
 # Source0-md5:	8c7a5b75fbc670edd01821e8bcc9297c
 Patch0:		%{name}-gcc34.patch
 URL:		http://www.davep.org/norton-guides/
-BuildRequires:	slang-devel
+BuildRequires:	slang-devel >= 2.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
