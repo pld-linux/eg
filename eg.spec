@@ -1,5 +1,5 @@
 Summary:	Norton Guide reader for GNU/Linux
-Summary(pl.UTF-8):   Czytnik plików Norton Guide dla GNU/Linuksa
+Summary(pl.UTF-8):	Czytnik plików Norton Guide dla GNU/Linuksa
 Name:		eg
 Version:	1.00
 Release:	2
