@@ -1,5 +1,5 @@
 Summary:	Norton Guide reader for GNU/Linux
-Summary(pl):	Czytnik plików Norton Guide dla GNU/Linuksa
+Summary(pl.UTF-8):   Czytnik plikÃ³w Norton Guide dla GNU/Linuksa
 Name:		eg
 Version:	1.00
 Release:	2
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Expert Guide is a text based Norton Guide reader.
 
-%description -l pl
-Expert Guide jest tekstowym czytnikiem plików w formacie Norton Guide.
+%description -l pl.UTF-8
+Expert Guide jest tekstowym czytnikiem plikÃ³w w formacie Norton Guide.
 
 %prep
 %setup -q
