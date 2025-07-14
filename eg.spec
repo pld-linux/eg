@@ -20,7 +20,7 @@ Expert Guide jest tekstowym czytnikiem plików w formacie Norton Guide.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__make} \
